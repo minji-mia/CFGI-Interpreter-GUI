@@ -1,5 +1,7 @@
 # CFGI-Interpreter-GUI
 
+My program consists of three files. One is for setting context free grammar and parsing string and another is for setting up UI layout and last one is for setting button signal and slots to use context free grammar interpreter. The below code is developed in Python language.
+
 ## Demo
 
 ![image](https://user-images.githubusercontent.com/52568892/100826096-37d0e680-341f-11eb-92aa-b8d6cf691d08.png)
