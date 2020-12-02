@@ -32,6 +32,9 @@ My program consists of three files. One is for setting context free grammar and 
 - F → lolF|h|g   
 - F → d|kkk  
 
+## Derivation Trees
+
+Strings are accepted by grammar: 
 
 ## License
 [MIT](https://github.com/minji-mia/CFGI-Interpreter-GUI/blob/main/LICENSE)
