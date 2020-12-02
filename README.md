@@ -19,18 +19,18 @@ My program consists of three files. One is for setting context free grammar and 
 - S → aaaaS|A|B|C  
 - S → D|E|ɛ 
 - A → m|AC  
--A → aB|c|D  
--A → aa 
--B → ae|BE|ɛ|azz  
--B → Cd  
--C → i|D   
--C →  u|ɛ|o   
--D → n|E|t|at   
--D → y|ɛ  
--E → j|r|D|F  
--E → CBF  
--F → lolF|h|g   
--F → d|kkk  
+- A → aB|c|D  
+- A → aa 
+- B → ae|BE|ɛ|azz  
+- B → Cd  
+- C → i|D   
+- C →  u|ɛ|o   
+- D → n|E|t|at   
+- D → y|ɛ  
+- E → j|r|D|F  
+- E → CBF  
+- F → lolF|h|g   
+- F → d|kkk  
 
 
 ## License
