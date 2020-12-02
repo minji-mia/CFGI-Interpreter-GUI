@@ -12,10 +12,26 @@ My program consists of three files. One is for setting context free grammar and 
 
 ![image](https://user-images.githubusercontent.com/52568892/100826127-4a4b2000-341f-11eb-8cc0-f2ea453bcd37.png)
 
-
-
 ## Presentation on Youtube
 [![Watch the video](https://user-images.githubusercontent.com/52568892/100825965-ef192d80-341e-11eb-973f-34c30d43d3d7.PNG)](https://www.youtube.com/watch?v=u1nfMwuLPKw&feature=youtu.be)
+
+## Context Free Grammar
+S → aaaaS|A|B|C 
+S → D|E|ɛ
+A → m|AC 
+A → aB|c|D 
+A → aa
+B → ae|BE|ɛ|azz 
+B → Cd
+C → i|D 
+C →  u|ɛ|o
+D → n|E|t|at 
+D → y|ɛ
+E → j|r|D|F
+E → CBF
+F → lolF|h|g 
+F → d|kkk
+
 
 ## License
 [MIT](https://github.com/minji-mia/CFGI-Interpreter-GUI/blob/main/LICENSE)
