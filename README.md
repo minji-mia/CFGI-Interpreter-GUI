@@ -34,7 +34,23 @@ It consists of three files. One is for setting context free grammar and parsing 
 
 ## Derivation Trees
 
-Strings are accepted by grammar: 
+### Strings are accepted by grammar: 
+1)	minji
+Rule	Application	Result
+Start → S	Start	S
+S → A	S	A
+A → AC	A	AC
+A → AC	AC	ACC
+A → AC	ACC	ACCC
+A → AC	ACCC	ACCCC
+A → m	ACCCC	mCCCC
+C → i	mCCCC	miCCC
+C → D	miCCC	miDCC
+D → n	miDCC	minCC
+C → D	minCC	minDC
+D → E	minDC	minEC
+E → j	minEC	minjC
+C → i	minjC	minji
 
 ## License
 [MIT](https://github.com/minji-mia/CFGI-Interpreter-GUI/blob/main/LICENSE)
