@@ -13,9 +13,11 @@ It consists of three files. One is for setting context free grammar and parsing 
 ![image](https://user-images.githubusercontent.com/52568892/100826127-4a4b2000-341f-11eb-8cc0-f2ea453bcd37.png)
 
 ## Presentation on Youtube 
+
 [![Watch the video](https://user-images.githubusercontent.com/52568892/100825965-ef192d80-341e-11eb-973f-34c30d43d3d7.PNG)](https://www.youtube.com/watch?v=u1nfMwuLPKw&feature=youtu.be)
 
-## Context Free Grammar
+## Context Free Grammar Example
+
 - S → aaaaS|A|B|C  
 - S → D|E|ɛ 
 - A → m|AC  
@@ -32,25 +34,20 @@ It consists of three files. One is for setting context free grammar and parsing 
 - F → lolF|h|g   
 - F → d|kkk  
 
-## Derivation Trees
+### Derivation Trees
 
-### Strings are accepted by grammar: 
-1)	minji
-Rule	Application	Result
-Start → S	Start	S
-S → A	S	A
-A → AC	A	AC
-A → AC	AC	ACC
-A → AC	ACC	ACCC
-A → AC	ACCC	ACCCC
-A → m	ACCCC	mCCCC
-C → i	mCCCC	miCCC
-C → D	miCCC	miDCC
-D → n	miDCC	minCC
-C → D	minCC	minDC
-D → E	minDC	minEC
-E → j	minEC	minjC
-C → i	minjC	minji
+#### Strings are accepted by grammar: 
+
+-	minji
+
+![image](https://user-images.githubusercontent.com/52568892/101060045-9186fd00-3554-11eb-885f-7f3c10f24fb2.png)
+![image](https://user-images.githubusercontent.com/52568892/101060080-9cda2880-3554-11eb-8653-0473088e35f2.png)
+
+#### Strings are not accepted by grammar: 
+
+-	car: The grammar cannot produce ‘ar’.
+
+![image](https://user-images.githubusercontent.com/52568892/101060396-fe01fc00-3554-11eb-9091-4f84360ba358.png)
 
 ## License
 [MIT](https://github.com/minji-mia/CFGI-Interpreter-GUI/blob/main/LICENSE)
