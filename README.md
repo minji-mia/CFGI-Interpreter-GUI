@@ -16,7 +16,9 @@ It consists of three files. One is for setting context free grammar and parsing 
 
 [![Watch the video](https://user-images.githubusercontent.com/52568892/100825965-ef192d80-341e-11eb-973f-34c30d43d3d7.PNG)](https://www.youtube.com/watch?v=u1nfMwuLPKw&feature=youtu.be)
 
-## Context Free Grammar Example
+## Example
+
+### Context Free Grammar
 
 - S → aaaaS|A|B|C  
 - S → D|E|ɛ 
@@ -45,7 +47,7 @@ It consists of three files. One is for setting context free grammar and parsing 
 
 #### Strings are not accepted by grammar: 
 
--	car: The grammar cannot produce ‘ar’.
+-	car: The grammar cannot produce ‘ar’
 
 ![image](https://user-images.githubusercontent.com/52568892/101060396-fe01fc00-3554-11eb-9091-4f84360ba358.png)
 
