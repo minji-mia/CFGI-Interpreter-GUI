@@ -51,5 +51,13 @@ It consists of three files. One is for setting context free grammar and parsing 
 
 ![image](https://user-images.githubusercontent.com/52568892/101060396-fe01fc00-3554-11eb-9091-4f84360ba358.png)
 
+
+## Built with
+
+- [Python 3.7](https://www.python.org/)
+
+- [PyQt5](https://pypi.org/project/PyQt5/)
+
 ## License
-[MIT](https://github.com/minji-mia/CFGI-Interpreter-GUI/blob/main/LICENSE)
+
+This project is licensed under the [MIT](https://github.com/minji-mia/CFGI-Interpreter-GUI/blob/main/LICENSE) License
