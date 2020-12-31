@@ -2,6 +2,8 @@
 
 The project is for a context-free grammar interpreter. The interpreter takes as input a context-free grammar and a string to parse and gives an output whether the test string is either accepted or rejected. The program is implemented in a GUI, using Python.
 
+![cfgi](https://user-images.githubusercontent.com/52568892/103412247-c6797600-4b39-11eb-81dc-8d00577fadc8.png)
+
 ## Program Overview
 
 It consists of three files. One is for setting context free grammar and parsing string and another is for setting up UI layout and last one is for setting button signal and slots to use context free grammar interpreter. The below code is developed in Python language.
